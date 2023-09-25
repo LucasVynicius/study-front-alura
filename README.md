@@ -28,6 +28,6 @@ Para mais informações sobre o curso e outros recursos de aprendizado da Alura,
 
 Este projeto pode ser usado como um exemplo de como criar um portfólio pessoal simples usando HTML e CSS, e os estilos podem ser personalizados para atender às suas próprias preferências e necessidades.
 
+![front](https://github.com/LucasVynicius/study-front-alura/assets/85889556/431ea752-0ea1-4133-b154-092b981b8598)
 
 
-![Screenshot_6](https://github.com/LucasVynicius/study-front-alura/assets/85889556/b698d6ca-84dc-47ad-a2e2-4cff9a9b0a9a)
