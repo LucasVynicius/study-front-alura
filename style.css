@@ -15,12 +15,30 @@ body {
     box-sizing: border-box;
 }
 
+/*Menu*/
+.principal__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal__botao {
+    color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
 /* Estilos para a seção principal */
 .principal {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 10% 15%;
+    margin-bottom: 40px;
 }
 
 /* Estilos para o conteúdo principal */
@@ -59,7 +77,7 @@ body {
 }
 
 /* Estilos para o parágrafo de introdução */
-p {
+.principal_paragrafo {
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -81,12 +99,26 @@ img {
 /* Estilos para o grupo de botões */
 .apresentacao__btn {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.apresentacao__subtitulo {
+    font-family: Krona One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+
 }
 
 /* Estilos para os botões */
 .botao {
-    width: 280px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
     height: 35px;
     text-align: center;
     font-size: 24px;
@@ -94,9 +126,33 @@ img {
     font-style: normal;
     font-weight: 600;
     padding: 21.5px 0;
-    border-radius: 16px;
-    color: #000;
+    border-radius: 8px;
+    color: #F6F6F6;
     text-decoration: none;
-    border: #22D4FD;
-    background: #22D4FD;
+    border: 2px solid #22D4FD;
+}
+
+.botao img {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.botao:hover {
+    background-color: #272727;
+}
+
+.rodape {
+    /*padding: 24px;*/
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
 }
