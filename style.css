@@ -1,0 +1,102 @@
+/* Importa a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+/* Estilos gerais para resetar margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais para o corpo da página */
+body {
+    height: 100vh;
+    background: #000;
+    color: #f6f6f6;
+    box-sizing: border-box;
+}
+
+/* Estilos para a seção principal */
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 15%;
+}
+
+/* Estilos para o conteúdo principal */
+.principal__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-shrink: 0;
+    width: 615px;
+    height: 482px;
+    top: 278px;
+    left: 357px;
+    border-radius: 16px;
+}
+
+/* Estilos para o título principal */
+.principal__titulo {
+    color: #F6F6F6;
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estilos para o destaque no título */
+.titulo-destaque {
+    color: #22D4FD;
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+}
+
+/* Estilos para o parágrafo de introdução */
+p {
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+/* Estilos para a imagem do autor */
+img {
+    width: 360px;
+    height: 400px;
+    top: 235px;
+    left: 1030px;
+    border-radius: 16px;
+}
+
+/* Estilos para o grupo de botões */
+.apresentacao__btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Estilos para os botões */
+.botao {
+    width: 280px;
+    height: 35px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    color: #000;
+    text-decoration: none;
+    border: #22D4FD;
+    background: #22D4FD;
+}
