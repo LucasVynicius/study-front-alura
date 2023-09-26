@@ -16,19 +16,20 @@ body {
 }
 
 /*Menu*/
-.principal__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu{
+    padding: 2% 0% 0% 15% ;
 }
 
-.principal__botao {
+.principal__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.botao__menu {
     color: #22D4FD;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-decoration: none;
 }
 
@@ -37,7 +38,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 5% 15%;
     margin-bottom: 40px;
 }
 
@@ -87,15 +88,6 @@ body {
     text-align: center;
 }
 
-/* Estilos para a imagem do autor */
-img {
-    width: 360px;
-    height: 400px;
-    top: 235px;
-    left: 1030px;
-    border-radius: 16px;
-}
-
 /* Estilos para o grupo de botões */
 .apresentacao__btn {
     display: flex;
@@ -142,6 +134,16 @@ img {
     background-color: #272727;
 }
 
+/* Estilos para a imagem do autor */
+img {
+    width: 360px;
+    height: 400px;
+    top: 235px;
+    left: 1030px;
+    border-radius: 16px;
+}
+
+
 .rodape {
     /*padding: 24px;*/
     color: #000000;
@@ -152,7 +154,7 @@ img {
     font-weight: 400;
     bottom: 0;
     left: 0;
-    height: 40px;
+    height: 4%;
     position: fixed;
     width: 100%;
 }
