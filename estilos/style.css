@@ -1,6 +1,17 @@
 /* Importa a fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+/* Variáveis para cores e fontes */
+:root {
+    --cor-primaria: #000; /* Cor principal (preta) */
+    --cor-secundaria: #f6f6f6; /* Cor secundária (branca) */
+    --cor-terciaria: #22d4fd; /* Cor terciária (azul claro) */
+    --cor-hover: #272727; /* Cor para hover (cinza escuro) */
+
+    --fonte-principal: 'Krona One', sans-serif; /* Fonte principal */
+    --fonte-secundaria: 'Montserrat', sans-serif; /* Fonte secundária */
+}
+
 /* Estilos gerais para resetar margens e preenchimentos */
 * {
     margin: 0;
@@ -9,28 +20,28 @@
 
 /* Estilos gerais para o corpo da página */
 body {
-    height: 100vh;
-    background: #000;
-    color: #f6f6f6;
+    /*height: 100%;*/
+    background: var(--cor-primaria); /* Cor de fundo principal */
+    color: var(--cor-secundaria); /* Cor do texto principal */
     box-sizing: border-box;
 }
 
-/*Menu*/
-.menu{
-    padding: 2% 0% 0% 15% ;
+/* Estilos para o menu de navegação */
+.menu {
+    padding: 2% 0% 0% 15%; /* Preenchimento do menu */
 }
 
 .principal__menu {
     display: flex;
-    gap: 80px;
+    gap: 80px; /* Espaço entre os itens do menu */
 }
 
 .botao__menu {
-    color: #22D4FD;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    text-decoration: none;
+    color: var(--cor-terciaria); /* Cor do texto do menu */
+    font-family: var(--fonte-secundaria); /* Fonte do menu */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: 600; /* Peso da fonte */
+    text-decoration: none; /* Remove sublinhado dos links */
 }
 
 /* Estilos para a seção principal */
@@ -38,54 +49,37 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5% 15%;
-    margin-bottom: 40px;
+    padding: 5% 15%; /* Preenchimento da seção principal */
+    gap: 82px; /* Espaço entre elementos */
 }
 
 /* Estilos para o conteúdo principal */
 .principal__conteudo {
     display: flex;
     flex-direction: column;
-    gap: 16px;
-    flex-shrink: 0;
-    width: 615px;
-    height: 482px;
-    top: 278px;
-    left: 357px;
-    border-radius: 16px;
+    gap: 40px; /* Espaço entre elementos internos */
+    width: 50%;
 }
 
 /* Estilos para o título principal */
 .principal__titulo {
-    color: #F6F6F6;
-    font-family: 'Krona One', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 56px;
-    align-items: center;
-    text-align: center;
+    color: var(--cor-secundaria); /* Cor do título */
+    font-family: var(--fonte-principal); /* Fonte do título */
+    font-size: 2.25rem; /* Tamanho da fonte do título */
 }
 
 /* Estilos para o destaque no título */
 .titulo-destaque {
-    color: #22D4FD;
-    font-family: 'Krona One', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 56px;
+    color: var(--cor-terciaria); /* Cor do destaque no título */
+    font-family: var(--fonte-principal); /* Fonte do destaque no título */
+    font-size: 2.25rem; /* Tamanho da fonte do destaque no título */
 }
 
 /* Estilos para o parágrafo de introdução */
 .principal_paragrafo {
-    color: #F6F6F6;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: center;
+    color: var(--cor-secundaria); /* Cor do texto do parágrafo */
+    font-family: var(--fonte-secundaria); /* Fonte do texto do parágrafo */
+    font-size: 1.25rem; /* Tamanho da fonte do texto do parágrafo */
 }
 
 /* Estilos para o grupo de botões */
@@ -94,67 +88,77 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 32px; /* Espaço entre botões */
 }
 
 .apresentacao__subtitulo {
-    font-family: Krona One;
-    font-size: 24px;
+    font-family: var(--fonte-secundaria); /* Fonte do subtítulo */
+    font-size: 1.5rem; /* Tamanho da fonte do subtítulo */
     font-style: normal;
     font-weight: 400;
-
 }
 
 /* Estilos para os botões */
 .botao {
     display: flex;
     justify-content: center;
-    gap: 16px;
-    width: 378px;
-    height: 35px;
+    gap: 16px; /* Espaço entre elementos dentro do botão */
+    border: 2px solid var(--cor-terciaria); /* Borda do botão */
+    width: 60%; /* Largura do botão */
     text-align: center;
-    font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    padding: 21.5px 0;
-    border-radius: 8px;
-    color: #F6F6F6;
-    text-decoration: none;
-    border: 2px solid #22D4FD;
+    border-radius: 8px; /* Borda arredondada */
+    font-size: 1.5rem; /* Tamanho da fonte do botão */
+    font-weight: 600; /* Peso da fonte do botão */
+    padding: 21.5px 0; /* Preenchimento interno do botão */
+    text-decoration: none; /* Remove sublinhado dos links dentro do botão */
+    color: var(--cor-secundaria); /* Cor do texto do botão */
+    font-family: var(--fonte-secundaria); /* Fonte do texto do botão */
 }
 
 .botao img {
-    width: 32px;
-    height: 32px;
-    flex-shrink: 0;
+    width: 10%;
+    height: 3%;
+    position: relative;
 }
 
 .botao:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover); /* Cor de fundo ao passar o mouse */
 }
 
 /* Estilos para a imagem do autor */
-img {
-    width: 360px;
-    height: 400px;
-    top: 235px;
-    left: 1030px;
-    border-radius: 16px;
+.apresentacao__img {
+    width: 50%; /* Largura da imagem do autor */
+    height: 30%; /* Altura da imagem do autor */
+    border-radius: 10px; /* Borda arredondada da imagem */
 }
 
-
+/* Estilos para o rodapé */
 .rodape {
-    /*padding: 24px;*/
-    color: #000000;
-    background-color: #22D4FD;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    bottom: 0;
-    left: 0;
-    height: 4%;
-    position: fixed;
-    width: 100%;
+    color: var(--cor-primaria); /* Cor do texto do rodapé */
+    background-color: var(--cor-terciaria); /* Cor de fundo do rodapé */
+    padding: 24px; /* Preenchimento do rodapé */
+    text-align: center; /* Alinhamento do texto no rodapé */
+    font-family: var(--fonte-secundaria); /* Fonte do texto do rodapé */
+    font-size: 1.5rem; /* Tamanho da fonte do texto do rodapé */
+    font-weight: 400; /* Peso da fonte do texto do rodapé */
+}
+
+/* Estilos responsivos para telas com largura máxima de 1200px */
+@media(max-width:1200px) {
+    .menu {
+       padding: 10%; /* Preenchimento do menu */
+    }
+
+    .principal__menu {
+        justify-content: center; /* Centraliza os itens do menu */
+    }
+
+    .principal {
+        flex-direction: column-reverse; /* Inverte a direção dos elementos na seção principal */
+        padding: 5%; /* Preenchimento da seção principal */
+    }
+
+    .principal__conteudo {
+       width: auto; /* Largura automática do conteúdo principal */
+    }
 }

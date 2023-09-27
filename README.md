@@ -1,27 +1,58 @@
-<h1>Front-end HTML e CSS - Projeto Portfolio</h1>
-Este repositório contém o código-fonte de um projeto de página web desenvolvido como parte do curso de Front-end HTML e CSS da Alura. O projeto é um portfolio pessoal de um desenvolvedor web chamado Lucas Albuquerque. Abaixo, você encontrará informações sobre os arquivos e estilos utilizados neste projeto:
+# Portfolio Pessoal
 
-<h2>Arquivos</h2>
-index.html: Este é o arquivo HTML principal da página. Ele define a estrutura da página, incluindo o cabeçalho, o conteúdo principal e o rodapé. Também inclui links para os estilos CSS.
+Este repositório contém os arquivos de um projeto de portfólio pessoal desenvolvido com HTML, CSS e uma pitada de design para apresentar informações sobre Lucas Albuquerque, um desenvolvedor Full Stack Web.
 
-style.css: Este arquivo CSS é responsável por estilizar a página. Ele define estilos para elementos como o corpo da página, títulos, parágrafos, imagens e botões. Além disso, importa duas fontes do Google Fonts para uso nos estilos.
+## Conteúdo do Repositório
 
-<h2>Estilos</h2>
-O estilo geral da página é configurado no corpo (body) e define um plano de fundo preto (#000) e cores de texto branco (#f6f6f6).
+O projeto consiste em três arquivos HTML e um arquivo CSS que define a aparência da página. Aqui está uma visão geral dos arquivos:
 
-A seção principal (principal) é uma área centralizada com elementos alinhados horizontalmente.
+1. **index.html**: Este é o arquivo principal da página inicial do portfólio. Ele contém informações sobre Lucas Albuquerque, incluindo um título, parágrafos de introdução e links para suas redes sociais.
 
-O conteúdo principal (principal__conteudo) é a parte central da página que contém o título, o parágrafo de introdução e os botões de redes sociais. Ele possui uma largura fixa e uma altura específica com bordas arredondadas.
+2. **about.html**: Este arquivo HTML é responsável por apresentar mais informações sobre Lucas Albuquerque, incluindo uma breve biografia, sua formação e seu trabalho atual.
 
-O título principal (principal__titulo) possui um estilo de fonte personalizado da família "Krona One" e usa uma cor branca com um destaque em azul (#22D4FD).
+3. **estilos/style.css**: Este arquivo CSS define os estilos de toda a página. Ele inclui estilos para o corpo da página, o cabeçalho, o conteúdo principal, os botões, as fontes e muito mais.
 
-O parágrafo de introdução (p) usa a fonte "Montserrat" e tem um estilo de fonte menor em relação ao título.
+4. **assets/**: Este diretório contém algumas imagens usadas no projeto, como a foto de Lucas e os ícones de redes sociais.
 
-A imagem do autor (img) possui dimensões específicas e bordas arredondadas.
+## Pré-requisitos
 
-Os botões de redes sociais (botao) têm um estilo de fonte e cores específicos, com um fundo azul e texto preto.
+Para visualizar o projeto e fazer modificações, você precisará de um editor de código, como o Visual Studio Code, e um navegador da web. Certifique-se de que os arquivos HTML e CSS estejam na mesma estrutura de diretório conforme definido acima.
 
-<h2>Curso Alura</h2>
+## Instruções de Uso
+
+1. Clone este repositório para o seu ambiente local usando o Git ou baixe-o como um arquivo ZIP e descompacte-o.
+
+2. Abra o diretório do projeto em seu editor de código.
+
+3. Abra o arquivo `index.html` ou `about.html` em seu navegador para visualizar o portfólio.
+
+4. Para fazer modificações nos estilos ou no conteúdo, você pode editar os arquivos HTML e CSS de acordo com suas preferências.
+
+5. Se desejar adicionar mais seções ou informações ao portfólio, você pode expandir os arquivos HTML conforme necessário.
+
+## Personalização
+
+Sinta-se à vontade para personalizar este projeto de acordo com suas próprias informações e estilo. Você pode adicionar mais seções, incluir seu próprio conteúdo e até mesmo adicionar mais páginas HTML, se desejar.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- Google Fonts (fontes Krona One e Montserrat)
+
+## Autor
+
+Este portfólio pessoal foi desenvolvido por Lucas Albuquerque.
+
+## Licença
+
+Este projeto é de código aberto e está disponível sob a [Licença MIT](LICENSE).
+
+---
+
+Este é um exemplo de um arquivo `README.md` básico para um projeto como o seu. Você pode adicionar mais informações, como instruções detalhadas sobre como implantar o projeto, dependendo das necessidades do seu público-alvo. Certifique-se de substituir as seções com suas próprias informações e detalhes sobre o projeto.
+
+## Curso Alura
 Este projeto faz parte do curso de Front-end HTML e CSS da Alura, que oferece uma introdução ao desenvolvimento front-end de páginas web usando HTML e CSS. O curso abrange conceitos essenciais de HTML e CSS, incluindo formatação, layout responsivo e estilização de páginas web. É uma ótima maneira de começar a aprender a criar sites atraentes e funcionais.
 
 Para mais informações sobre o curso e outros recursos de aprendizado da Alura, visite o site oficial da Alura: https://www.alura.com.br/.
