@@ -127,8 +127,8 @@ body {
 
 /* Estilos para a imagem do autor */
 .apresentacao__img {
-    width: 50%; /* Largura da imagem do autor */
-    height: 30%; /* Altura da imagem do autor */
+    width: 49%; /* Largura da imagem do autor */
+    height: 35%; /* Altura da imagem do autor */
     border-radius: 10px; /* Borda arredondada da imagem */
 }
 
